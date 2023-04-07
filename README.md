@@ -1,7 +1,6 @@
 Mi devo portare l’ombrello?
-Should I bring an umbrella?
-You will have to create a new application to check the weather around the world!
-Use ReactJS and OPTIONALLY Redux (what you've learned so far).
+Dovrai creare una nuova applicazione per controllare il meteo in giro per il mondo!
+Usa ReactJS e FACOLTATIVAMENTE Redux (quanto imparato fin ora).
 
 Functionality
 The user must be able to select the city and receive information on the weather (will it rain?, temperature?, next days?)
