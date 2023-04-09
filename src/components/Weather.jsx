@@ -51,13 +51,13 @@ const Weather = () => {
             onChange={e => setInputText(e.target.value)}
             onKeyDown={handleSearch}
           />
-          <h1 className="city">{data.name}</h1>
+          <h1 className="mt-3">{data.name}</h1>
           <div className="group">
             <img src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="" />
             <h1>{data.weather[0].main}</h1>
           </div>
 
-          <h1 className="temp">{data.main.temp.toFixed()} °C</h1>
+          <h1>{data.main.temp.toFixed()} °C</h1>
 
           <Slide direction="right" timeout={800} in={!loading}>
             <div className="box_container">
